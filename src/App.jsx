@@ -1,6 +1,6 @@
 import Profile from "./assets/components/Profile/Profile.jsx";
 import userData from "./userData.json";
-import friends from "../friends.json";
+import friends from "./friends.json";
 import FriendList from "./assets/components/FriendList/FriendList.jsx";
 
 const App = () => {
