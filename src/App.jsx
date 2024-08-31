@@ -1,4 +1,3 @@
-import React from "react";
 import Profile from "./assets/components/Profile/Profile.jsx";
 import userData from "./userData.json";
 
