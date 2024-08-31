@@ -1,10 +1,10 @@
 import s from "./Profile.module.css";
 
-const Profile = ({ name, tag, location, avatar, stats }) => {
+const Profile = ({ name, tag, location, image, stats }) => {
   return (
     <div className={s.profile}>
       <div className={s.description}>
-        <img src={avatar} alt="User avatar" className={s.avatar} />
+        <img src={image} alt="User avatar" className={s.avatar} />
         <p className={s.name}>{name}</p>
         <p className={s.tag}>{tag}</p>
         <p className={s.location}>{location}</p>
